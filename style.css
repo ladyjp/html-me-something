@@ -13,8 +13,11 @@ h2 {
   color: white;
   font-family: verdana;
   text-align: left;
+  padding-left: 55px;
 }
-
+.para {
+  text-align: center;
+}
 p, li {
   font-family: verdana;
   font-size: 16px;
@@ -36,4 +39,35 @@ img {
   transform: rotate(90deg);
 }
 
+div.gallery {
+  margin: 3px;
+  float: left;
+  width: 180px;
+  color: white;
+  font-family: verdana;
+  font-size: 12px;
+  
+}
 
+
+div.gallery img {
+  width: 100%;
+  height: 150px;
+  }
+
+div.desc {
+  padding: 50px;
+  text-align: center;
+}
+
+div.vid {
+  margin: 5px;
+  width: auto;
+  color: white;
+  font-family: verdana;
+  font-size: 12px;
+}
+div.viddesc {
+  padding-top: 50px;
+  text-align: left;
+}
