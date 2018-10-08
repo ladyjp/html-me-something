@@ -1,23 +1,25 @@
 body {
-  background-color: cadetblue;
+  background-color: white;
 }
 
-h1 {
-  color: white;
+.header {
+  padding: 75px;
   text-align: center;
-  font-family: verdana;
-  font-size: 45px
+  background-image: url("./images/beachview5.jpg");
+  color: cadetblue;
+  font-family: Verdana, sans-serif;
+  font-size: 40px;
 }
+
+
 
 h2 {
-  color: white;
+  color: cadetblue;
   font-family: verdana;
   text-align: left;
   padding-left: 55px;
 }
-.para {
-  text-align: center;
-}
+
 p, li {
   font-family: verdana;
   font-size: 16px;
@@ -56,7 +58,7 @@ div.gallery img {
   }
 
 div.desc {
-  padding: 50px;
+  padding: 10px;
   text-align: center;
 }
 
